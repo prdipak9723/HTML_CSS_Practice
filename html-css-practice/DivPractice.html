@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .square {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            display: inline-block;
+        }
+
+        .circle {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: green;
+            display: inline-block;
+        }
+
+        .dialog {
+            padding: 20px;
+            border-style: solid;
+            border-width: 1px;
+            height: 70px;
+            width: 200px;
+            border-color: black;
+        }
+
+        .questionaire {
+            margin-bottom: 10px;
+        }
+
+        .card {
+            height: 330px;
+            width: 220px;
+            box-shadow: 0px 0px 10px 5px rgba(57, 55, 55, 0.5);
+            margin-top: 20px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .dp {
+            padding: 20px;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .btn-class {
+            margin-bottom: 10px;
+            width: 100px;
+            margin-left: 20px;
+            background-color: rgb(27, 116, 148);
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .name {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .details {
+            margin-top: 2px;
+            color: gray;
+            margin-left: 20px;
+        }
+
+        .container {
+            width:850px;
+        }
+
+        .tweet-container{
+            margin-top:30px;
+            width:800px;
+            height:100px;
+            border-width:2px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 5px 5px rgba(57, 55, 55, 0.5);
+           
+        }
+
+        .profile-pic{
+            height:50px;
+            width:50px;
+            border-radius: 25px;
+            margin-left:20px;
+            margin-top:15px;
+
+        }
+        .tweet{
+            color: gray;
+            margin-left: 10px;
+            display: inline-block;
+            text-align: center;
+            margin-top: 0px;
+            vertical-align: middle;
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 8px;
+            margin-bottom: 25px;
+            margin-right: 430px;
+
+
+        }
+        .tweet-btn{
+            margin-top:0px;
+            margin-bottom: 35px;
+            margin-right: 20px;
+            padding: 15px;
+            border-radius: 20px;
+            width:100px;
+            background-color: rgb(0, 166, 255);
+            color:white
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="square"></div>
+    <div class="circle"></div>
+    <div class="dialog">
+        <p class="questionaire">Satisfied with our   service</p>
+        <button>Yes</button>
+        <button>No</button>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img class="dp" src="../puppy.jpg" />
+            <p class="name">Oliver</p>
+            <p class="details">2 mutual friends</p>
+            <button class="btn-class">Add Friend</button>
+        </div>
+        <div class="card">
+            <img class="dp" src="../puppy.jpg" />
+            <p class="name">Oliver</p>
+            <p class="details">2 mutual friends</p>
+            <button class="btn-class">Add Friend</button>
+        </div>
+        <div class="card">
+            <img class="dp" src="../puppy.jpg" />
+            <p class="name">Oliver</p>
+            <p class="details">2 mutual friends</p>
+            <button class="btn-class">Add Friend</button>
+        </div>
+    </div>
+
+    <div class="tweet-container">
+        <img class="profile-pic" src="../puppy.jpg">
+        <p class="tweet"> What's happening ?</p>
+        <button class="tweet-btn">Tweet</button>
+    </div>
+</body>
+
+</html>
