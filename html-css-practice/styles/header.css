@@ -3,14 +3,23 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:70px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-color:rgb(190, 184, 184);
+    border-bottom-width: 1px;
+     z-index:100;      /* so that thumbnail images do not appear on top of navbar. */
+
 }
 .left-section{
     height:55px;
     display: flex;
     flex-direction: row;
     align-items: center;
-
-    
 
 }
 .middle-section{
@@ -22,8 +31,6 @@
     flex-direction: row;
     flex:1;
     align-items: center;
-   
-
 
 }
 .right-section{
@@ -98,15 +105,33 @@
 }
 
 .youtube-apps-icon{
-    height: 24px;
+    height: 30px;
+    width:30px;
 }
 .upload-icon{
-    height: 24px;
+    height: 30px;
+    width:30px;
 }
 .notifications-icon{
-    height: 24px;
+    height: 30px;
+    width:30px;
 }
 .profile-picture-icon{
     height: 30px;
-    border-radius: 15px;
+    width:30px;
+}
+.notifications-count{
+    position: relative;
+}
+.count{
+    position: absolute;
+    height:15px;
+    width: 15px;
+    border-radius: 7.5px;
+    background-color: red;
+    color: white;
+    top:-1px;
+    right: -2px;
+    text-align: center;
+    font-size: small;
 }
