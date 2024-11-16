@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        .container{
+            height:500px;
+            width:200px;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+        }
+        .puppy{
+            width:100px;
+            height: 100px;
+            padding: 20px;
+            object-fit: cover;
+
+
+        }
+        .circular-img{
+            height: 20px;
+            width: 20px;
+            border-radius: 10px;
+        }
+        .dp-friends-grid{
+            display: grid;
+            grid-template-columns: 20px 1fr;
+            column-gap: 5px;
+            align-items: center;
+
+        }
+        .btn-class{
+            background-color: blue;
+            padding: 5px;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div style="display: grid; grid-template-columns:100px 100px;">
+        <div style="background-color: rgb(132, 191, 211);"> col1</div>
+        <div style="background-color: rgb(176, 111, 206);">col2 <p>Hello</p></div>
+        <!-- <div style="background-color: rgb(132, 191, 211);"> col1</div> -->
+        <div style="background-color: rgb(176, 111, 206);">col2</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 100px 1fr;">
+        <div style="background-color: lightpink"> col1</div>
+        <div style="background-color: lightblue"> col2</div>
+    </div>
+    <div style="margin-top:30px; display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 5px; row-gap:6px;">
+        <div style="background-color: lightpink; height:100px;"> col1</div>
+        <div style="background-color: lightblue;height:100px;"> col2</div>
+        <div style="background-color: lightpink;height:100px;"> col1</div>
+        <div style="background-color: lightblue;height:100px;"> col2</div>
+        <div style="background-color: lightpink;height:100px;"> col1</div>
+        <div style="background-color: lightblue;height:100px;"> col2</div>
+    </div>
+    <div style="margin-top:50px;display: grid; grid-template-columns: 100px 1fr 75px;">
+        <div style="background-color: lightpink"> col1</div>
+        <div style="background-color: lightblue"> col2</div>
+        <div style="background-color: lightpink"> col1</div>
+    </div>
+    <div>
+        <div class="container">
+            <div>
+                <img class="puppy" src="../puppy.jpg">
+            </div>
+            <div>
+                <div>name</div>
+                <div class="dp-friends-grid">
+               
+                        <img class="circular-img"src="../puppy.jpg">
+                        <p>2mutual friends</p>
+                   
+                </div>
+                <div>
+                    <button class="btn-class">AddFriend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

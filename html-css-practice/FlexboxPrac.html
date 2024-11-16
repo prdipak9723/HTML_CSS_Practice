@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Practice</title>
+    <style>
+        .container{
+            margin-top:30px;
+            border-style:solid;
+            border-width:2px;
+            border-color: gray;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;        
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .flexbox{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* .text{
+            margin-left:10px;
+        } */
+        .btn{
+            background-color: rgb(0, 119, 255);
+            width: 40px;
+            border-radius: 10px;
+            margin: 10px;
+            color:white
+        }
+        .twitter{
+            height:60px;
+            display:flex;
+            flex-direction: row;
+            flex:1;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            
+        }
+        .puppy-pro{
+            height: 40px;
+            width:40px;
+            border-radius: 20px;
+            margin-left: 10px;
+
+        }
+        .about-container{
+            display: flex;
+            flex-direction: column;
+            margin-left:10px;
+        }
+        .pro-about{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .btn-add{
+            margin-right: 20px;
+            background-color: rgb(0, 119, 255);
+            border-radius: 10px;
+            margin: 10px;
+            color:white;
+            padding:10px;
+        }
+        .friends-page{
+            display: flex;
+            flex-direction: column;
+            margin-top:100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div style="display:flex; flex-direction:row;">
+        <div style="background-color: lightpink;">
+            div1
+        </div>
+        <div style="background-color:lightblue;">
+            div2
+            <p>Hello</p>
+        </div>
+    </div>
+    <div style="margin-top:20px; display:flex; flex-direction:row; border-style:solid;border-width: 2px;border-color: black;">
+        <div style="background-color: lightpink; width:100px">
+            div1
+        </div>
+        <div style="background-color:lightblue; width:100px;">
+            div2
+            <p>Hello</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="flexbox">
+            <div>Home</div>
+            <div class="btn">14</div>
+        </div>
+        <div class="flexbox">
+            <div>Home</div>
+            <div class="btn">14</div>
+        </div>
+        <div class="flexbox">
+            <div>Home</div>
+            <div class="btn">14</div>
+        </div>
+        <div class="flexbox">
+            <div>Home</div>
+            <div class="btn">14</div>
+        </div>
+
+
+    </div>
+    <div class="friends-page">
+    <div class="twitter">
+        <div class="pro-about">
+            <div><img class="puppy-pro"src="../puppy.jpg"></div>
+            <div class="about-container">
+                <div>Oliver</div>
+                <div>The cat</div>
+                <div>Popular</div>
+                
+            </div>
+
+        </div>
+
+
+        <div class="btn-add">Follow</div>
+
+    </div>
+    <div class="twitter">
+        <div class="pro-about">
+            <div><img class="puppy-pro"src="../puppy.jpg"></div>
+            <div class="about-container">
+                <div>Oliver</div>
+                <div>The cat</div>
+                <div>Popular</div>
+                
+            </div>
+
+        </div>
+
+
+        <div class="btn-add">Follow</div>
+
+    </div>
+    <div class="twitter">
+        <div class="pro-about">
+            <div><img class="puppy-pro"src="../puppy.jpg"></div>
+            <div class="about-container">
+                <div>Oliver</div>
+                <div>The cat</div>
+                <div>Popular</div>
+                
+            </div>
+
+        </div>
+
+
+        <div class="btn-add">Follow</div>
+
+    </div>
+</div>
+
+
+        
+
+</body>
+</html>

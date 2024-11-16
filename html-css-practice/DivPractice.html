@@ -75,28 +75,29 @@
         }
 
         .container {
-            width:850px;
+            width: 850px;
         }
 
-        .tweet-container{
-            margin-top:30px;
-            width:800px;
-            height:100px;
-            border-width:2px;
+        .tweet-container {
+            margin-top: 30px;
+            width: 800px;
+            height: 100px;
+            border-width: 2px;
             border-radius: 20px;
             box-shadow: 0px 0px 5px 5px rgba(57, 55, 55, 0.5);
-           
+
         }
 
-        .profile-pic{
-            height:50px;
-            width:50px;
+        .profile-pic {
+            height: 50px;
+            width: 50px;
             border-radius: 25px;
-            margin-left:20px;
-            margin-top:15px;
+            margin-left: 20px;
+            margin-top: 15px;
 
         }
-        .tweet{
+
+        .tweet {
             color: gray;
             margin-left: 10px;
             display: inline-block;
@@ -111,19 +112,70 @@
 
 
         }
-        .tweet-btn{
-            margin-top:0px;
+
+        .tweet-btn {
+            margin-top: 0px;
             margin-bottom: 35px;
             margin-right: 20px;
             padding: 15px;
             border-radius: 20px;
-            width:100px;
+            width: 100px;
             background-color: rgb(0, 166, 255);
-            color:white
+            color: white
         }
 
+        .prac-container {
+            margin-top: 20px;
+            height: 200px;
+            width: 300px;
+            border-style: solid;
+            border-color: black;
 
+        }
 
+        .prac-image {
+            width: 100px;
+        }
+
+        .survey-text {
+            width: 100px;
+            display: inline-block;
+        }
+
+        .btn-class1 {
+
+            margin-top:0px;
+        }
+
+        .textbox-class {
+            padding: 10px;
+            border-radius: 10px;
+            outline: NONE;
+        }
+
+        .email-text {
+            display: block;
+            width: 320px;
+            margin-top: 10px;
+        }
+
+        .survey-dialog {
+            height: 150px;
+            width: 300px;
+            border-style: solid;
+            border-color: black;
+        }
+        .btns{
+       
+            display: inline-block;
+           vertical-align: middle;
+            
+        }
+        .survey-text-container{
+            display: inline-block;
+            margin-left:20px;
+            margin-right: 20px;
+        }
     </style>
 </head>
 
@@ -131,7 +183,7 @@
     <div class="square"></div>
     <div class="circle"></div>
     <div class="dialog">
-        <p class="questionaire">Satisfied with our   service</p>
+        <p class="questionaire">Satisfied with our service</p>
         <button>Yes</button>
         <button>No</button>
     </div>
@@ -161,6 +213,33 @@
         <p class="tweet"> What's happening ?</p>
         <button class="tweet-btn">Tweet</button>
     </div>
+    <!-- 
+    <div class="prac-container">
+        <img class="prac-image" src="../puppy.jpg">
+        <p>Hello</p>
+        <p> how are you?</p>
+        <button>Click me</button>
+    </div> -->
+
+
+    <!-- <input class="textbox-class"type="text" placeholder="Name">
+    <input type="textbox-class" placeholder="Email"> -->
+    <div class="survey-dialog">
+
+        <div class="survey-text-container">
+            <p class="survey-text">Thank you for chatting with us . Could you please take our quick survey</p>
+        </div>
+        <div class="btns">
+            <button class="btn-class1">Yes</button>
+            <button class="btn-class1">No</button>
+        </div>
+    </div>
+
+    <input type="text" placeholder="First Name" class="textbox-class">
+    <input type="text" placeholder="Email" class="textbox-class">
+
+
+
 </body>
 
 </html>

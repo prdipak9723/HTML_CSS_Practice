@@ -1,0 +1,112 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-section{
+    height:55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+
+}
+.middle-section{
+    height:55px;
+    margin-left: 10px;
+    margin-right:20px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    align-items: center;
+   
+
+
+}
+.right-section{
+    width: 200px;
+    height:55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+
+}
+.ham-size{
+    margin-left:24px;
+    margin-right:5px;
+    height:30px;
+    width:30px;
+}
+.logo-size{
+    width: 100px;
+    margin-left: 10px;
+}
+.searchbar{
+    flex:1;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 10px;
+    height:20px;
+    width: 100px;
+    border-radius:5px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    outline: none;
+    width:0;
+   
+}
+.searchbar::placeholder{
+    font-size: 16px;
+    font-family: Roboto;
+}
+.ham-size{
+    margin-left:24px;
+    margin-right:5px;
+    height:30px;
+    width:30px;
+}
+
+.search-button{
+    margin-left: -1px;
+    border: none;
+    background-color:rgba(211, 211, 211,0.4);
+}
+.search-icon{
+    height:17px;
+    width:17px;
+    padding: 10px;
+    margin-left: -3px;
+    border-color: rgba(0,0,0,0.05);
+    
+}
+.voice-button{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    margin-left: 3px;
+    border: none;
+    background-color:rgba(211, 211, 211,0.4);
+
+}
+.voice-search-icon{
+    height: 20px;
+    width: 20px;
+   
+}
+
+.youtube-apps-icon{
+    height: 24px;
+}
+.upload-icon{
+    height: 24px;
+}
+.notifications-icon{
+    height: 24px;
+}
+.profile-picture-icon{
+    height: 30px;
+    border-radius: 15px;
+}
